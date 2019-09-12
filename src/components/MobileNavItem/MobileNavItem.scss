@@ -1,0 +1,47 @@
+.MobileNavItem {
+  &-heading {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    padding: 15px 36px;
+    margin: 0;
+    color: #0a0a82;
+    font-size: 16px;
+    line-height: 20px;
+    background: white;
+    cursor: pointer;
+    z-index: 1;
+  }
+
+  &-content {
+    padding: 17px 36px 34px;
+    box-sizing: border-box;
+    background: linear-gradient(to bottom, rgba(142, 162, 236, 0.1) 0%, rgba(99, 111, 153, 0) 50%, rgba(99, 111, 153, 0.1) 100%), white;
+  }
+
+  &-desc {
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 34px;
+    color: #636f99;
+    opacity: 0.7;
+  }
+
+  &-items {
+    padding: 0;
+    margin: 0 0 20px;
+    list-style: none;
+  }
+
+  &-item {
+    margin: 0;
+    font-size: 16px;
+    line-height: 34px;
+  }
+
+  &-link {
+    color: #0a0a82;
+    text-decoration: none;
+  }
+}
